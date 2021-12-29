@@ -1,0 +1,120 @@
+let arrayData=[
+{
+  Id:"12341",
+  firstName:"Ram",
+  lastName:"G",
+  email:"ram@gmail.com",
+  age:"25",
+  profession:"Software engineer",
+  city: "Mumbai",
+  phoneNo:"1234567890"
+},
+{
+  Id:"12345",
+  firstName:"Raj",
+  lastName:"G",
+  email:"raj@gmail.com",
+  age:"25",
+  profession:"Software engineer",
+  city: "Mumbai",
+  phoneNo:"1234567891"
+
+},
+{
+  Id:"12344",
+  firstName:"Rani",
+  lastName:"G",
+  email:"rani@gmail.com",
+  age:"25",
+  profession:"Software engineer",
+  city: "Kolkata",
+  phoneNo:"1234567896"
+},
+{
+  Id:"12341",
+  firstName:"Rajini",
+  lastName:"G",
+  email:"rajini@gmail.com",
+  age:"25",
+  profession:"Software engineer",
+  city: "banglore",
+  phoneNo:"1234567897"
+},
+{
+  Id:"12348",
+  firstName:"Karan",
+  lastName:"M",
+  email:"karan@gmail.com",
+  age:"25",
+  profession:"Manager",
+  city: "banglore",
+  phoneNo:"1234567891"
+},
+{
+  Id:"12340",
+  firstName:"Geetha",
+  lastName:"P",
+  email:"Geetha@gmail.com",
+  age:"25",
+  profession:"Manager",
+  city: "banglore",
+  phoneNo:"1234567889"
+},
+{
+  Id:"12330",
+  firstName:"Priya",
+  lastName:"P",
+  email:"peetha@gmail.com",
+  age:"25",
+  profession:"Manager",
+  city: "banglore",
+  phoneNo:"1234567876"
+},
+{
+  Id:"12389",
+  firstName:"Geethika",
+  lastName:"P",
+  email:"Geethika@gmail.com",
+  age:"25",
+  profession:"Manager",
+  city: "Mumbai",
+  phoneNo:"1234567990"
+},
+{
+  Id:"12378",
+  firstName:"Akhila",
+  lastName:"P",
+  email:"Akhila@gmail.com",
+  age:"25",
+  profession:"Manager",
+  city: "banglore",
+  phoneNo:"1234567880"
+},
+{
+  Id:"12344",
+  firstName:"Anbu",
+  lastName:"P",
+  email:"Anbu@gmail.com",
+  age:"25",
+  profession:"Manager",
+  city: "Mumbai",
+  phoneNo:"1234566666"
+},
+
+];
+
+for(var i=0;i<arrayData.length;i++){
+  console.log(arrayData[i]);
+}
+for(var index in arrayData){
+  console.log(arrayData[index]);
+}
+for(var data of arrayData){
+  console.log(arrayData);
+}
+
+arrayData.forEach((x)=>{
+  for(let data in x){
+  console.log(data + ":"+ x[data]);
+  }
+})
